@@ -1,0 +1,18 @@
+Hypertext: Focuses on creating links between different pieces
+ of content, enabling navigation and interactivity.
+
+Example in HTML:
+
+html
+Copy code
+<a href="https://www.example.com">Visit Example.com</a>
+
+
+
+Markup Text:
+ Used in documents where defining the structure and format of content is essential (e.g., HTML, XML)
+
+ Example:
+
+Hypertext: <a href="https://www.example.com">Visit Example.com</a>
+Markup Text: <p>This is a paragraph.</p>
