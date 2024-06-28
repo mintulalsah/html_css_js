@@ -8,8 +8,20 @@
             /* width: 1100px; */
            
             max-width: 95%;
-            background-color: red;
+            /* background-color: red; */
             margin: auto;
+        }
+        section{
+            /* width: 1000px; */
+            height: 800px;
+            background-color: aqua;
+        }
+        header{
+            width: 500px;
+            height: 500px;
+            background-color: blue;
+            float: left;
+            /* float will work only left right not top down and will come out of block of section, so now article will take all space */
         }
     </style>
 </head>
@@ -17,17 +29,19 @@
 <body>
 
     <!-- all these below element are bloc element so in block element we can add another block or inline element -->
-    <header>
-        <h1>this is header of web-page</h1>
-    </header>
+   
     <section>
+        <header>
+            <h1>this is header of web-page</h1>
+        </header>
+      <article>
         <h2>heading for section</h2>
         <p>
             In this tutorial, we'll start from the very beginning. You don't need to know anything about HTML and CSS or
             anything about code to start. I'll include some tutorial files for you to play with and check out.
         </p>
-    </section>
-    <article>
+      </article>
+      <article>
         <h3>my hobbies</h3>
         <!-- ul stands of runordered-list -->
          <!-- li is of list item -->
@@ -49,6 +63,8 @@
     <article>
         <p>myname.com</p>
     </article>
+    </section>
+  
     <aside>aside</aside>
     <footer>footer</footer>
 
