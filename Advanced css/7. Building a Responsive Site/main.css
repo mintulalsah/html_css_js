@@ -1,0 +1,23 @@
+
+div{
+    background:  rgb(144, 159, 144);
+    padding: 10px;
+    margin: auto;
+   
+}
+*{
+    box-sizing:border-box;
+    /* include padding ,margin */
+}
+/* @media screen{
+
+    div{
+        background-color: red;
+    }
+} */
+@media screen and (min-width:200px){
+    div{
+        width: 25%;
+        float: left;
+    }
+}

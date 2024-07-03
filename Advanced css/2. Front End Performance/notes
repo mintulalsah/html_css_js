@@ -1,0 +1,9 @@
+1. code minifications
+
+remove extras space and line which is un-nececry for browswer becuase browswer don care about space and extraline in thi swe reduced file size
+
+To achieve minification, developers often use build tools and task runners like Webpack, Gulp, or automated scripts that integrate minification plugins such as UglifyJS for JavaScript, CSSNano for CSS, and HTMLMinifier for HTML. These tools streamline the process of minifying code during development and deployment phases, ensuring optimal performance and efficiency of web applications.
+
+2. image optimisations
+
+3. spriting

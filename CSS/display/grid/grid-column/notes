@@ -1,0 +1,2 @@
+style every item of grid by giving style ot item of grid 
+like we give grid-column-start anbd end value for  1-3 then gird item1 will start from column 1 to col 3, will take space of two grid item

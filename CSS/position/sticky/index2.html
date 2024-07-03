@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body{
+    /* width: 100vh;
+    height: 100vh; */
+    background: rgb(117, 87, 87);
+  }
+  .container{
+    /* position: relative; */
+    background: rgb(94, 122, 184);
+    height: 200px;
+  }
+
+  /* In this example:
+
+The .container div is positioned relatively, making it the nearest positioned ancestor for the .absolute div.
+The .absolute div is positioned  bottom:0;
+  left: 0; of the .container div. */
+.absolute{
+  position: sticky;
+ top:0
+}
+</style>
+</head>
+<body>
+
+<h1>POSITION Sticky</h1>
+
+<p>
+  An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+
+  However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling. 
+</p>
+<div class="absolute">This div element has position: absolute and can scroll with page;</div>
+
+<!-- <div class="container" >
+  <div class="absolute">This div element has position: absolute and can scroll with page;</div>
+</div> -->
+<div style="padding-bottom:2000px">
+  <p>In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.</p>
+  <p>Scroll back up to remove the stickyness.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+</div>
+</body>
+</html>
+
+

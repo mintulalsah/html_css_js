@@ -1,0 +1,2 @@
+all posible properties that is inheritable will inherit form there parent, for example if we pass font-size of boy elemen 
+then all there childer element text font is is same as gieven in body
