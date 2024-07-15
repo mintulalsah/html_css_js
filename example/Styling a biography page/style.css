@@ -1,0 +1,30 @@
+h1{
+    color: hotpink;
+    border-bottom: 10px dotted purple;
+}
+
+h2{
+    font-style: italic;
+}
+h3{
+    color: hotpink;
+}
+
+ul{
+    border: 5px red solid;
+    padding: 20px;
+    
+}
+
+p{
+    display: inline-flex;
+}
+a:link, a:visited {
+    color: #fb6542;
+  }
+a:link{
+    color: blue;
+}
+a:hover{
+    text-decoration: none;
+}

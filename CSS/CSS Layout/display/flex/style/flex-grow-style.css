@@ -1,0 +1,22 @@
+.flexContainer1{
+  display: flex;
+  height: 300px;
+  width: 100%;
+  /* now when we change screen size main container size will chnage acc ot screen and there chil item as well */
+}
+.flexContainer1 {
+  background-color: pink;
+}
+
+.flexContainer1 div{
+  /* height: 100px;
+  width: 100px; */
+  margin: 10px;
+}
+.flexContainer1 div {
+  background-color: red;
+}
+
+.flex-item {
+  flex-grow: 1;
+}

@@ -1,0 +1,34 @@
+h1{
+    color: hotpink;
+    border-bottom: 10px dotted purple;
+}
+
+h2{
+    font-style: italic;
+}
+h3{
+    color: hotpink;
+}
+
+ul{
+    border: 5px red solid;
+    padding: 20px;
+    
+}
+
+p{
+    background-image: url('https://via.placeholder.com/150/771796');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 100px;
+}
+a:link, a:visited {
+    color: #fb6542;
+
+  }
+a:link{
+    color: blue;
+}
+a:hover{
+    text-decoration: none;
+}

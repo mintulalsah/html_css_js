@@ -12,8 +12,8 @@
 }
 .flexContainer1 div,
 .flexContainer2 div {
-  height: 100px;
-  width: 100px;
+  /* height: 100px;
+  width: 100px; */
   margin: 10px;
 }
 .flexContainer1 div {
@@ -21,4 +21,7 @@
 }
 .flexContainer2 div {
   background-color: blue;
+}
+.flex-item {
+  flex-grow: 1;
 }

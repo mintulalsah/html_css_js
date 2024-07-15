@@ -14,10 +14,8 @@
   }
 
   /* In this example:
-
-The .container div is positioned relatively, making it the nearest positioned ancestor for the .absolute div.
-The .absolute div is positioned  bottom:0;
-  left: 0; of the .container div. */
+z-index:1 will make that div above to parent div and -1 will make below to parent div
+  */
 .zindex{
   position:absolute;
 z-index: -1;
@@ -26,7 +24,7 @@ z-index: -1;
 </head>
 <body>
 
-<h1>POSITION Sticky</h1>
+<h1>Z z-index</h1>
 
 <p>
   An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
