@@ -1,0 +1,8 @@
+which is diff in inline an dblock element?
+black element comes next after one in anothe rline but i inline come after other inline element lie span element.
+we can appply hight with to blcok lement but in inline we can only give left, right padding,margin not and also top bottom work but it will only increase width of box not shift content
+
+
+what is box model
+
+inline elemnet does not folow box model becasue when we give background color of span one and half line it will not show like box i.e rectangular

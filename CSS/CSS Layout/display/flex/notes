@@ -1,3 +1,10 @@
 flex in css means make item in container flexible by default in row and when u chnage flex 0 drirection to
  column then giving dispaly as flex is make item flexible in coumn
 
+
+FLEX-GROW
+divide all child element in same size acc to container size
+
+FLEX SHRINK
+it will only work on container size and sammler then there toatsl child element size
+if we give flex-shrinl to 0 then that particular child element will take there full width as given

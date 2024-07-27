@@ -1,7 +1,7 @@
 .flexContainer1{
   display: flex;
   height: 300px;
-  width: 50%;
+  width: 1200px;
   /* now when we change screen size main container size will chnage acc ot screen and there chil item as well */
 }
 .flexContainer1 {
@@ -17,8 +17,10 @@
   background-color: red;
 }
 
+
 .flex-item1 {
-  flex-shrink: 2;
+  flex-shrink: 0;
+  /* if give means it wil not shrink there width */
 }
 .flex-item4 {
   flex-shrink: 4;

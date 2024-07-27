@@ -1,0 +1,19 @@
+0
+
+Java allows for Implicit and Explicit function calls.
+
+Example:
+
+public class Junk
+{
+  private int a = 1;
+  public String toString () { return (a); }
+}
+
+void main (String [] args)
+{
+  Junk j = new Junk (); // implicit call to Junk's default constructor 
+  // so implicit means which called automatically 
+  System.out.println (j); // implicit call to j.toString();
+  System.out.println (j.toString()); // explicit call to j.toString();
+}
