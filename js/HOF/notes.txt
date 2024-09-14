@@ -1,0 +1,3 @@
+higher order funtion which either take funtion as argument or return funtion
+
+map funtion form array i sexample of HOF there are to many funtin from array that are hof example

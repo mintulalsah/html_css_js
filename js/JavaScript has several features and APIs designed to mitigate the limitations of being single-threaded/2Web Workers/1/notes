@@ -1,0 +1,2 @@
+Background Threads: Web Workers provide a way to run JavaScript in background threads. This allows for concurrent execution of scripts in parallel threads without blocking the main thread. 
+However, Web Workers have limitations, such as no direct access to the DOM.

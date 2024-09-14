@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+   function outerFunction() {
+  let outerVar = 'I am outer';
+
+  function innerFunction() {
+    let innerVar = 'I am inner';
+    console.log('OuterVar in innerFunction:', outerVar); // Shows outerVar from outerFunction's Lexical Environment
+    console.log('InnerVar in innerFunction:', innerVar); // Shows innerVar from innerFunction's Lexical Environment
+  }
+
+  innerFunction();
+}
+
+outerFunction();
+
+    </script>
+</body>
+</html>

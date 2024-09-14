@@ -1,0 +1,4 @@
+Java: An object is created using the new keyword followed by the class name and
+ constructor parameters.
+JavaScript: An object is created using the new keyword 
+followed by the constructor function and its parameters.

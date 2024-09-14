@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+function debounce(func, delay) {
+  let timeoutId;
+  
+  return function(...args) {
+    // Clear the previous timer if the function is called again
+    clearTimeout(timeoutId);
+
+    // Set a new timer to execute the function after 'delay' ms
+    timeoutId = setTimeout(() => {
+      func(...args);  // Call the original function with the passed parameters
+    }, delay);
+  };
+}
+
+// Example usage
+const debouncedFunc = debounce((message) => {
+  console.log(message);
+}, 50);
+
+// Function is called at 30ms, 60ms, and 100ms
+debouncedFunc('Call at 30ms');
+debouncedFunc('Call at 60ms');
+debouncedFunc('Call at 100ms');
+
+// Final execution happens only once, at 150ms, with 'Call at 100ms'
+
+    </script>
+</body>
+</html>

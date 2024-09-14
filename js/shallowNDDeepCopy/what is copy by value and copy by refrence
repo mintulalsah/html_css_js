@@ -1,0 +1,6 @@
+if we copy data form primitive data type varibale then it will copy by value , in this case
+if we made chnage in any varible then it will only chnage value in that varibale not in other
+
+
+but in non primitive like object and array , copy by refrence we use to optimised memory because these are 
+large having large size of data.

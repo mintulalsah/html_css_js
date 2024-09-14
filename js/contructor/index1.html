@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    // Define the constructor function
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+}
+
+// Access the prototype object
+console.log(Person.prototype); // Output: Person { constructor: [Function: Person] }
+
+// Check if the prototype has the constructor property
+console.log(Person.prototype.constructor); // Output: [Function: Person]
+
+function Women(gender, age) {
+  this.gender = gender;
+  this.age = age;
+}
+
+Women.prototype=Person.prototype
+console.log('woemn',Women.prototype);
+    </script>
+</body>
+</html>

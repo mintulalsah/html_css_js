@@ -1,0 +1,37 @@
+in image see_call_stack u can see in browswer console stack 
+is show here anonymouse fintion is main() funtion
+
+vvi link
+https://www.jsv9000.app/
+http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D
+
+BLOCKING means thing that are slow then what hapend in javascrits
+
+event loop job is to check when call stack is empty then take one thing form task queue also know as callback queue
+
+
+In JavaScript, especially in the context of the event loop, several data structures are utilized to manage tasks and events efficiently. Here's a breakdown of the main data structures involved:
+
+Call Stack:
+
+This is a stack data structure that keeps track of the function execution context. When a function is invoked, it gets added to the call stack, and once the function execution is complete, it is removed from the stack. The call stack operates on the LIFO (Last In, First Out) principle.
+Callback Queue (or Task Queue, Message Queue):
+
+This is a queue data structure that stores callback functions that are ready to be executed after the current execution context is cleared (i.e., when the call stack is empty). It operates on the FIFO (First In, First Out) principle. Examples of tasks added to the callback queue include setTimeout callbacks, I/O operations, and event handlers.
+Microtask Queue:
+
+This is another queue data structure, but it has a higher priority than the callback queue. Microtasks are tasks that need to be executed immediately after the currently executing script and before any other task from the callback queue. Promises and mutation observers are examples of operations that generate microtasks. Like the callback queue, the microtask queue follows the FIFO principle.
+Heap:
+
+The heap is not directly related to the event loop but is crucial for memory management. It is used for storing objects and variables in an unstructured manner. The heap is used by the JavaScript engine to allocate memory dynamically.
+Job Queue:
+
+This term is often used interchangeably with the microtask queue. In modern JavaScript engines, the job queue is specifically for managing promises and other tasks that require high priority execution.
+To summarize, the primary data structures used in the JavaScript event loop mechanism are the call stack, callback queue, microtask queue, and indirectly, the heap. These structures help manage the flow of synchronous and asynchronous operations in JavaScript, ensuring efficient execution of code.
+
+
+
+
+
+
+

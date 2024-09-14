@@ -1,0 +1,4 @@
+image1.png this image we can see not synchronously called funtion is direclty pushed in 
+call stack and once funtion exceution is completed pop out form stack.
+
+in image2 we can see settimeout is called in which we caled funB and pushed inside task(callback queue) queue 
