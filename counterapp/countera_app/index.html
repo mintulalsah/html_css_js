@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div>
+    <label>counter app</label>
+    <label id="value">0</label>
+   </div>
+
+   <button id="increment">Increment</button>
+ 
+</body>
+<script>
+    let a =0;
+   const valueDocument=document.getElementById('value');
+    function increment(){
+        a=a+1;
+        console.log('called');
+    }
+   
+    const button = document.getElementById('increment');
+
+// Add event listener to the button
+button.addEventListener('click', function(){
+    document.getElementById('value').textContent=parseInt(valueDocument.textContent)+1
+});
+</script>
+</html>

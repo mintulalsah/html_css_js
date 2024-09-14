@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="button1" title="mintu clcik">sdd</button>
+</body>
+<script>
+
+function name(params) {
+    console.log('hellow');
+}
+let value=5;
+const a=new Promise((resolve,reject)=>{
+
+   var a= setInterval(() => {
+        if(value==10){
+resolve('mintu');
+    }
+    }, 100);
+   
+})
+
+a.then((as)=>{
+console.log('ok',as);
+})
+  
+  var btn=document.getElementById('button1');
+ 
+  btn.addEventListener('click',()=>{
+    console.log('button clciked');
+   value=10;
+  }
+  );
+</script>
+</html>

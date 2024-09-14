@@ -1,0 +1,8 @@
+Viewport Properties
+width=device-width: Sets the width of the viewport to be equal to the width of the device. This ensures that the layout fits the screen width of the device.
+
+initial-scale=1.0: Sets the initial zoom level when the page is first loaded. A value of 1.0 means no zoom.
+
+maximum-scale=1.0: Sets the maximum zoom level. This can prevent users from zooming in.
+
+user-scalable=no: Disables the user’s ability to zoom in or out. This can be useful for preventing users from breaking the layout by zooming.

@@ -1,0 +1,46 @@
+1. Inline Styles
+<div style="color: red;"></div>
+Specificity: (1, 0, 0, 0)
+
+2. ID Selector
+#header {
+    color: blue;
+}
+Specificity: (0, 1, 0, 0)
+
+3. Class Selector
+.intro {
+    color: green;
+}
+Specificity: (0, 0, 1, 0)
+
+
+4. Attribute Selector
+[type="text"] {
+    color: purple;
+}
+[type="password"] {
+    color: green;
+}
+Specificity: (0, 0, 1, 0)
+
+
+5. Pseudo-class
+a:hover {
+    color: orange;
+}
+Specificity: (0, 0, 1, 1)// a is element selector ahdn :hover is Pseudo-class
+
+6. Element Selector
+p {
+    color: black;
+}
+Specificity: (0, 0, 0, 1)
+
+7. Pseudo-element Selector
+p::first-line {
+    color: yellow;
+}
+Specificity: (0, 0, 0, 1)
+
+

@@ -1,0 +1,16 @@
+Combined Selectors
+When multiple selectors are combined, their specificity values are summed. Here are some examples:
+
+Combined Selectors
+
+#header .intro a:hover {
+    color: red;
+}
+
+Specificity: (0, 1, 2, 1)
+
+Breakdown:
+
+#header: (0, 1, 0, 0)
+.intro: (0, 0, 1, 0)
+a:hover: (0, 0, 1, 1)// element selector and Pseudo-class

@@ -1,0 +1,28 @@
+.example-content-box {
+  box-sizing: content-box;
+  width: 200px;
+  padding: 10px;
+  border: 5px solid black;
+}
+/* The content area will be 200px wide.
+The total width will be 200px (content) + 10px (left padding) +
+10px (right padding) + 5px (left border) + 5px (right border) = 230px. */
+
+
+
+
+/* When you use box-sizing: border-box, the width and height properties include the content, padding, and border. The total width and height are confined to the specified dimensions.
+
+Example:
+
+css
+Copy code */
+.example-border-box {
+  box-sizing: border-box;
+  width: 200px;
+  padding: 10px;
+  border: 5px solid black;
+}
+/* The total width will be 200px, which includes the content, padding, and border.
+The content width will be calculated as 200px (total width) - 10px (left padding) 
+- 10px (right padding) - 5px (left border) - 5px (right border) = 170px. */

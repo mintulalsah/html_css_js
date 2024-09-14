@@ -1,0 +1,36 @@
+Specificity is calculated based on a four-part value in the format (a, b, c, d):
+
+a: Inline styles (added to an element in the "style" attribute) - 1000 points
+b: IDs - 100 points
+c: Classes, attributes, and pseudo-classes - 10 points
+d: Elements and pseudo-elements - 1 point
+
+Types of Selectors and Their Specificity
+Inline Styles
+
+style="property: value;"
+Specificity: (1, 0, 0, 0)
+ID Selectors
+
+#id
+Specificity: (0, 1, 0, 0)
+Class Selectors
+
+.class
+Specificity: (0, 0, 1, 0)
+Attribute Selectors
+
+[attribute]
+Specificity: (0, 0, 1, 0)
+Pseudo-classes
+
+:pseudo-class (e.g., :hover, :nth-child)
+Specificity: (0, 0, 1, 0)
+Element Selectors
+
+element (e.g., div, p, h1)
+Specificity: (0, 0, 0, 1)
+Pseudo-elements
+
+::pseudo-element (e.g., ::before, ::after)
+Specificity: (0, 0, 0, 1)
