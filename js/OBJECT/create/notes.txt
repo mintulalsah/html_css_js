@@ -1,0 +1,9 @@
+Prototype Inheritance: When you create employee1 using Object.create(employee),
+ employee1 does not have its own name property. Instead, it inherits name from employee.
+
+delete Behavior:
+
+The delete operator only removes own properties from an object.
+In this case, employee1 doesn't have its own name property; it is inherited from employee.
+Therefore, when you attempt to delete employee1.name, JavaScript will not delete the name property from the employee object, as it is only deleting it from employee1, where it doesn't exist directly.
+Result: After attempting to delete employee1.name, the name property will still be accessible via employee1 because it is still inherited from the employee object.

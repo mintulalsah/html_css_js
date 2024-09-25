@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function debouncefun() {
+            let time=3000;
+
+let timeout;
+
+// clearTimeout("itmeout");
+// return  setTimeout(() => {
+//     return console.log("sayhi");
+    
+// }, time);
+
+return function setTimeout1() {
+clearTimeout(timeout);
+    timeout= setTimeout(() => {
+     console.log("sayhi");
+    
+}, time);
+}
+
+
+}
+
+const fun=debouncefun();
+fun();
+fun();
+
+    </script>
+</body>
+</html>
