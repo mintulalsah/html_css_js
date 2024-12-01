@@ -1,4 +1,4 @@
-let person={name:"mintu"}
+const person={name:"mintu"}
 const member=[person];
-person=null;
+person=""
 console.log(member[0])

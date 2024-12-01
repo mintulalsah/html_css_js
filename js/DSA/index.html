@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+   
+   
+function merge(num1, num2,m,n) {
+    console.log("mintu")
+    
+    let p1=m-1;
+    let p2=n-1;
+    let p=m+n-1
+    let res=[];
+    
+    while(p1>0&&p2>0){
+        if(num1[p1]<num2[p2]){
+            num1[p]=num2[p2]
+            
+      
+            p2--
+        }
+       
+        else{
+            
+              num1[p]=num1[p1]
+            p1--
+              console.log("mintu",p1,p2)
+        }
+        p--
+            
+        }
+ while (p2 >= 0) {
+        num1[p] = num2[p2];
+        p2--;
+        p--;
+    }
+      console.log("mintu",p1,p2)
+   console.log("mintu",num1)
+};
+
+
+merge([1,2,3,0,0,0],[2,5,6],3,3)
+
+        </script>
+</body>
+</html>

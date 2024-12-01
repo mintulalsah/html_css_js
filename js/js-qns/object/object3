@@ -1,0 +1,5 @@
+let person={name:"mintu"}
+const member=[person];
+person.name="monika"
+person=null
+console.log(member[0])

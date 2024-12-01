@@ -1,0 +1,2 @@
+by running js code in index.html add break point in starting
+ and check what seing after compilation phase of js

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+const arr=[0,0,1,1,1,2,2,3,3,4];
+let minvalue=1;
+for (let i = 0; i < arr.length; i++) {
+ 
+    if (arr[i]<arr[i+1]) {
+        arr[minvalue]=arr[i+1];
+        minvalue=minvalue+1;
+// console.log(minvalue);
+// count=i+1;
+        // break;
+        }
+
+}
+
+// console.log(count);
+
+console.log(arr);
+
+    </script>
+</body>
+</html>

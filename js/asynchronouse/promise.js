@@ -1,7 +1,7 @@
 const promise=new Promise((a,b)=>{
-    setTimeout(() => {
-       a();
-    }, 3000);
+    // setTimeout(() => {
+    //    a();
+    // }, 3000);
 })
 
 
@@ -20,3 +20,5 @@ promise.then(()=>{
         console.log("promise reject");
     
     })
+
+console.log(promise);

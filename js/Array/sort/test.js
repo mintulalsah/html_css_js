@@ -1,21 +1,26 @@
 const users=[
     {
         name:"mintu",
-        age:56
+        age:56,
+        id:1
     },
     {
         name:"mintu",
-        age:56
+        age:562,
+        id:2
     }
     ,
     {
         name:"bintu",
-        age:56
+        age:56,
+        id:3
     },
     {
         name:"aintu",
-        age:56
-    }
+        age:56,
+        id:4
+    },
+   
 ]
 
 const namearr=users.map((item)=>item.name).sort()

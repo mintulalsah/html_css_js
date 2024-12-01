@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link></link>
 <style>
   body{
     width: 100vh;
     height: 100vh;
     background: rgb(117, 87, 87);
+  position: static;
+
   }
   .container{
     background: rgb(94, 122, 184);
@@ -13,8 +16,9 @@
   }
 .relative{
   position: relative;
-  bottom:0;
-  left: 30px;
+  /* bottom:50px; */
+  top: 25px;
+  left: 300px;
 }
 </style>
 </head>
@@ -30,6 +34,7 @@ Setting the top, right, bottom, and left properties of a relatively-positioned e
 
 <div class="container" >
   <div class="relative">This div element has position: relative and can scroll with page;</div>
+  <div>This div element has position: relative and can scroll with page;</div>
 </div>
 
 </body>

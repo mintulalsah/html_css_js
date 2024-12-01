@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colored Divs</title>
+    <style>
+        /* Parent container */
+        div {
+            display: flex;
+            justify-content: space-around; /* Spacing between divs */
+            margin: 20px;
+        }
+
+        /* Individual colored divs */
+        .box {
+            width: 100px;
+            height: 100px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box1 {
+            background-color: red;
+        }
+
+        .box2 {
+            background-color: green;
+        }
+
+        .box3 {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <div onclick="clickme()">
+        <div class="box box1">div1</div>
+        <div class="box box2">div2</div>
+        <div class="box box3">div3</div>
+    </div>
+
+    <script>
+        function clickme() {
+            console.log("mintu clcik me");
+            
+        }
+    </script>
+</body>
+</html>

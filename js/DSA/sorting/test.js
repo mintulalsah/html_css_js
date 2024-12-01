@@ -1,3 +1,4 @@
+//bubble sort
 // console.log('Z'.charCodeAt(0));
 // 65+26=88
 const list=[5,90,1,18,3,23,2,24]

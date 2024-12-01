@@ -27,7 +27,6 @@ const man2=[]
 //with intialvalue
 const agesum=person1.reduce((accumulator,currentvalue,cureentindex)=>{
     console.log(accumulator,currentvalue.age,cureentindex);
-    
     return accumulator+currentvalue.age
 },0)
 
